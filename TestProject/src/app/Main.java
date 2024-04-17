@@ -46,5 +46,10 @@ public class Main extends JFrame {
 		lblNewLabel.setFont(new Font("Tahoma", Font.BOLD, 14));
 		lblNewLabel.setBounds(160, 78, 163, 21);
 		contentPane.add(lblNewLabel);
+		
+		JLabel lblNewLabel_1 = new JLabel("Hello World!");
+		lblNewLabel_1.setFont(new Font("Tahoma", Font.ITALIC, 15));
+		lblNewLabel_1.setBounds(199, 223, 85, 14);
+		contentPane.add(lblNewLabel_1);
 	}
 }
